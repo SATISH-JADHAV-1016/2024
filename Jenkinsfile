@@ -2,7 +2,7 @@ pipeline{
         agent{
            label{
                label 'built-in'
-               customWorkspace '/root/Container/
+               customWorkspace '/root/Container/'
                 }
               }
     stages{
